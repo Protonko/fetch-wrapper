@@ -1,7 +1,10 @@
 {
-  "name": "fetch-wrapper",
+  "name": "FW-fetch-wrapper",
   "version": "1.0.0",
   "main": "index.js",
+  "keywords": [
+    "js", "javascript", "fetch", "ajax", "request"
+  ],
   "author": "Egor Ermolaev <probegrofanston@mail.ru>",
   "license": "MIT",
   "scripts": {

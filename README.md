@@ -27,7 +27,7 @@ $ npm install fetch-wrapper
 Create a basic configuration
 
 ```javascript
-import FetchWrapper from 'fetch-wrapper';
+import FetchWrapper from 'FW-fetch-wrapper';
 
 const myFetch = new FetchWrapper();
 

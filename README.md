@@ -46,9 +46,8 @@ class MyFetch {
 Call the method and process the result
 
 ```javascript
-MyFetch.requsetTo().then(data => console.log(data));
+  MyFetch.requsetTo().then(data => console.log(data));
 ```
-                   
 
 <h2 id="request">Request methods</h2>
 ```javascript

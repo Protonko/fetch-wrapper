@@ -19,7 +19,7 @@ FetchWrapper - is a wrapper to allow interaction with fetch.
 <h2 id="installing">Installing</h2>
 
 ```
-$ npm install fetch-wrapper
+$ npm install fw-fetch-wrapper
 ```
 
 
@@ -27,7 +27,7 @@ $ npm install fetch-wrapper
 Create a basic configuration
 
 ```javascript
-import FetchWrapper from 'fw-fetch-wrapper';
+import {FetchWrapper} from 'fw-fetch-wrapper';
 
 const myFetch = new FetchWrapper();
 

@@ -50,6 +50,7 @@ Call the method and process the result
 ```
 
 <h2 id="request">Request methods</h2>
+
 ```javascript
 class MyFetch {
   static async requsetTo() {
@@ -69,7 +70,7 @@ class MyFetch {
     return await response.getContent();
   }
 }
-```
+````
 
 <h2 id="response">Response methods</h2>
 <ul>

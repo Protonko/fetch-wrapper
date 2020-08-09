@@ -4,6 +4,9 @@ FetchWrapper - is a wrapper to allow interaction with fetch.
 </h2>
 <ul>
   <li>
+    <a href="#installing">Installing</a>
+  </li>
+  <li>
     <a href="#example">Example</a>
   </li>
   <li>
@@ -13,11 +16,18 @@ FetchWrapper - is a wrapper to allow interaction with fetch.
     <a href="#response">Response method</a>
   </li>
 </ul>
+<h2 id="installing">Installing</h2>
+
+```
+$ npm install fetch-wrapper
+```
+
+
 <h2 id="example">Example</h2>
 Create a basic configuration
 
 ```javascript
-import FetchWrapper from 'FetchWrapper'
+import FetchWrapper from 'fetch-wrapper';
 
 const myFetch = new FetchWrapper();
 

@@ -1,0 +1,17 @@
+{
+  "name": "fetch-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Egor Ermolaev <probegrofanston@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --no-babelrc --plugins=@babel/plugin-syntax-object-rest-spread,@babel/plugin-proposal-class-properties,@babel/plugin-transform-classes src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.8.3"
+  }
+}

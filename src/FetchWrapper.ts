@@ -9,7 +9,7 @@ import {ClientResponse} from './ClientResponse';
 import {ClientRequest} from './ClientRequest';
 import {IConfig, IErrorResponse, ISuccessResponse, IRequestOptions} from './Interfaces';
 
-export class ClientFetchWrapper {
+export class FetchWrapper {
   private _baseURL: null | string
   private readonly _headers: Headers
 

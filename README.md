@@ -1,4 +1,4 @@
-ClientFetchWrapper - is a wrapper to allow interaction with fetch.
+FetchWrapper - is a wrapper to allow interaction with fetch.
 <h2>
   Table of Contents
 </h2>
@@ -27,9 +27,9 @@ $ npm install fw-fetch-wrapper
 Create a basic configuration
 
 ```javascript
-import {ClientFetchWrapper} from 'fw-fetch-wrapper';
+import {FetchWrapper} from 'fw-fetch-wrapper';
 
-const myFetch = new ClientFetchWrapper();
+const myFetch = new FetchWrapper();
 
 myFetch.configure({
   baseURL: 'https://exampleFetchWrapper.com',

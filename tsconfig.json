@@ -5,14 +5,14 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "declaration": true
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
     "node_modules",
-    "src/types",
-    "src/interfaces"
+    "dist"
   ]
 }

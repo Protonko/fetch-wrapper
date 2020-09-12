@@ -1,5 +1,3 @@
-import FetchWrapper from './public/FetchWrapper.min';
-import Request from './public/Request.min';
-import Response from './public/Response.min';
+import {ClientFetchWrapper} from './dist/ClientFetchWrapper';
 
-export {FetchWrapper, Request, Response};
+export {ClientFetchWrapper as FetchWrapper};

@@ -1,4 +1,4 @@
-FetchWrapper - is a wrapper to allow interaction with fetch.
+ClientFetchWrapper - is a wrapper to allow interaction with fetch.
 <h2>
   Table of Contents
 </h2>
@@ -10,7 +10,7 @@ FetchWrapper - is a wrapper to allow interaction with fetch.
     <a href="#example">Example</a>
   </li>
   <li>
-    <a href="#request">Request methods</a>
+    <a href="#request">ClientRequest methods</a>
   </li>
   <li>
     <a href="#response">Response method</a>
@@ -27,9 +27,9 @@ $ npm install fw-fetch-wrapper
 Create a basic configuration
 
 ```javascript
-import {FetchWrapper} from 'fw-fetch-wrapper';
+import {ClientFetchWrapper} from 'fw-fetch-wrapper';
 
-const myFetch = new FetchWrapper();
+const myFetch = new ClientFetchWrapper();
 
 myFetch.configure({
   baseURL: 'https://exampleFetchWrapper.com',
@@ -59,7 +59,7 @@ Call the method and process the result
   MyFetch.requsetTo().then(data => console.log(data));
 ```
 
-<h2 id="request">Request methods</h2>
+<h2 id="request">ClientRequest methods</h2>
 
 ```javascript
 class MyFetch {
@@ -72,7 +72,7 @@ class MyFetch {
               userName: 'Protonko',
             }) // https://exampleFetchWrapper.com/exampleUrl?id=14&userName=Protonko    
             .method('POST') // *GET, POST, PUT, DELETE, etc.
-            .body(JSON.stringify({id: 1, answer: 42})) // body data type must match "Content-Type" header
+            .body({id: 1, answer: 42}) // body data type must match "Content-Type" header
             .addHeader('name', 'value')
             .removeHeader('name')
     );

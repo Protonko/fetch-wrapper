@@ -1,8 +1,8 @@
 {
   "name": "fw-fetch-wrapper",
-  "version": "1.0.4",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.5",
+  "main": "dist/FetchWrapper.js",
+  "types": "dist/FetchWrapper.d.ts",
   "keywords": [
     "js",
     "javascript",
